@@ -1,0 +1,533 @@
+{
+    "en": {
+        "title": "Building Knowledge Landscapes Across the Digital Humanities: /DH.arc & DHLab in Dialogue",
+        "date": "November 5th-7th 2025",
+        "location": "Aula Affreschi/BUB, Bologna",
+        "description": "This three-day seminar establishes a methodological exchange between two prominent Digital Humanities research centers: the DHLab (Amsterdam) and the DHARC (Bologna). The program brings together leading scholars to examine and compare approaches in Knowledge Extraction, Organization, Production, and Visualization within Humanities and Cultural Heritage domains.",
+        "mainAreas": [
+            "Knowledge Extraction",
+            "Knowledge Organisation",
+            "Knowledge Production",
+            "Knowledge Visualisation"
+        ],
+        "schedule": {
+            "day1": {
+                "date": "May 19, 2025",
+                "sessions": [
+                    {
+                        "time": "10:30 - 11:00",
+                        "title": "KEYNOTE",
+                        "speaker": "Prof. Francesca Tomasi",
+                        "type": "KNOWLEDGE ORGANIZATION"
+                    }
+                ]
+            }
+        },
+        "talks": [
+            {
+                "talks": [
+                    {
+                        "title": "Are Large Language Models reliable Knowledge Extractors? A GLAM domain perspective",
+                        "speaker": "Andrea Schimmenti",
+                        "institution": null,
+                        "type": null,
+                        "time": null,
+                        "description": null,
+                        "keywords": [
+                            "Knowledge Extraction"
+                        ],
+                        "language": null
+                    },
+                    {
+                        "title": "Semantic narratives through Semantic Web technologies: Il castello dei destini incrociati by italo calvino",
+                        "speaker": "Enrica Bruno and Valentina Pasqual",
+                        "institution": null,
+                        "type": null,
+                        "time": null,
+                        "description": null,
+                        "keywords": [
+                            "Knowledge Organization"
+                        ],
+                        "language": null
+                    },
+                    {
+                        "title": "From Words to Images: A Framework for Modeling Ekphrasis",
+                        "speaker": "Maria Francesca Bocchi and Carlo Teo Pedretti",
+                        "institution": null,
+                        "type": null,
+                        "time": null,
+                        "description": null,
+                        "keywords": [
+                            "Knowledge Organization"
+                        ],
+                        "language": null
+                    },
+                    {
+                        "title": "Visualizing the Humanities: a survey of visualization practices, narrativity, and critical approaches in Digital Humanities projects",
+                        "speaker": "Tommaso Battisti",
+                        "institution": null,
+                        "type": null,
+                        "time": null,
+                        "description": null,
+                        "keywords": [
+                            "Knowledge Visualization"
+                        ],
+                        "language": null
+                    },
+                    {
+                        "title": "Born Digital Archives",
+                        "speaker": "Lucia Giagnolini",
+                        "institution": null,
+                        "type": null,
+                        "time": null,
+                        "description": null,
+                        "keywords": [
+                            "Knowledge Organization"
+                        ],
+                        "language": null
+                    },
+                    {
+                        "title": "Understanding questions: natural language queries and knowledge graphs",
+                        "speaker": "Remo Grillo",
+                        "institution": null,
+                        "type": null,
+                        "time": null,
+                        "description": null,
+                        "keywords": [
+                            "Knowledge Extraction"
+                        ],
+                        "language": null
+                    },
+                    {
+                        "title": "From Data to Meaning: Narrative Visualization for Critical Thinking in Semantic Web Learning",
+                        "speaker": "Giulia Renda",
+                        "institution": null,
+                        "type": null,
+                        "time": null,
+                        "description": null,
+                        "keywords": [
+                            "Knowledge Visualization"
+                        ],
+                        "language": null
+                    },
+                    {
+                        "title": "Temporary exhibitions in virtual environments",
+                        "speaker": "Arianna Moretti and Sebastian Barzaghi",
+                        "institution": null,
+                        "type": null,
+                        "time": null,
+                        "description": null,
+                        "keywords": [
+                            "Knowledge Organization"
+                        ],
+                        "language": null
+                    },
+                    {
+                        "title": "Formulaic language in historical political-administrative corpora",
+                        "speaker": "Marijn Koolen",
+                        "institution": null,
+                        "type": null,
+                        "time": null,
+                        "description": null,
+                        "keywords": [
+                            "Knowledge Extraction"
+                        ],
+                        "language": null
+                    },
+                    {
+                        "title": "Automatic Extraction and Diachronic Analysis of Olfactory Language",
+                        "speaker": "Teresa Paccosi",
+                        "institution": null,
+                        "type": null,
+                        "time": null,
+                        "description": null,
+                        "keywords": [
+                            "Knowledge Extraction"
+                        ],
+                        "language": null
+                    },
+                    {
+                        "title": "Encoding documents as graphs using markup",
+                        "speaker": "Ronald Haentjens Dekker",
+                        "institution": null,
+                        "type": null,
+                        "time": null,
+                        "description": null,
+                        "keywords": [
+                            "Knowledge Production"
+                        ],
+                        "language": null
+                    },
+                    {
+                        "title": "Research in Action: Practical Approaches to Archival Data",
+                        "speaker": "Gauri Bhagwat",
+                        "institution": null,
+                        "type": null,
+                        "time": null,
+                        "description": null,
+                        "keywords": [
+                            "Knowledge Extraction"
+                        ],
+                        "language": null
+                    },
+                    {
+                        "title": "Hardships in Narratological Modeling and Literary Language Processing",
+                        "speaker": "Joris Van Zundert",
+                        "institution": null,
+                        "type": null,
+                        "time": null,
+                        "description": null,
+                        "keywords": [
+                            "Knowledge Extraction"
+                        ],
+                        "language": null
+                    },
+                    {
+                        "title": "Why NLP + SW is a golden combo for Digital Humanities",
+                        "speaker": "Marieke Van Erp",
+                        "institution": null,
+                        "type": null,
+                        "time": null,
+                        "description": null,
+                        "keywords": [
+                            "Knowledge Organisation",
+                            "Knowledge Extraction"
+                        ],
+                        "language": null
+                    },
+                    {
+                        "title": "Semantic Change",
+                        "speaker": "Jiaqi Zhu",
+                        "institution": null,
+                        "type": null,
+                        "time": null,
+                        "description": null,
+                        "keywords": [],
+                        "language": null
+                    }
+                ]
+            }
+        ],
+        "workshops": [
+            {
+                "title": "Introduction to Digital Text Analysis",
+                "organizers": [
+                    {
+                        "name": "Dr. Lisa Chen",
+                        "institution": "DHLab Amsterdam"
+                    },
+                    {
+                        "name": "Prof. Giovanni Bianchi",
+                        "institution": "DHARC Bologna"
+                    }
+                ],
+                "date": "May 20, 2025",
+                "time": "09:30 - 12:30",
+                "location": "Digital Lab Room 101",
+                "description": "A hands-on workshop introducing participants to basic digital text analysis methods using Python and NLTK.",
+                "prerequisites": [
+                    "Basic Python knowledge",
+                    "Laptop with Python installed"
+                ],
+                "materials": [
+                    "Workshop slides",
+                    "Sample datasets",
+                    "Code repository"
+                ],
+                "capacity": 25,
+                "level": "Beginner",
+                "tags": [
+                    "Text Analysis",
+                    "Python",
+                    "NLTK"
+                ]
+            },
+            {
+                "title": "Advanced Data Visualization for Humanities",
+                "organizers": [
+                    {
+                        "name": "Dr. Michael Smith",
+                        "institution": "DHLab Amsterdam"
+                    }
+                ],
+                "date": "May 21, 2025",
+                "time": "14:00 - 17:00",
+                "location": "Visualization Studio",
+                "description": "Advanced techniques for creating interactive data visualizations using D3.js and other web-based tools.",
+                "prerequisites": [
+                    "Basic JavaScript knowledge",
+                    "Familiarity with HTML/CSS"
+                ],
+                "materials": [
+                    "Tutorial documents",
+                    "Example projects",
+                    "Online resources"
+                ],
+                "capacity": 20,
+                "level": "Advanced",
+                "tags": [
+                    "Visualization",
+                    "D3.js",
+                    "Web Development"
+                ]
+            }
+        ]
+    },
+    "it": {
+        "title": "Costruire Paesaggi di Conoscenza nelle Digital Humanities: DH.arc & DHLab in Dialogo",
+        "date": "5-7 Novembre 2025",
+        "location": "Aula Affreschi/BUB, Bologna",
+        "description": "Questo seminario di tre giorni stabilisce uno scambio metodologico tra due importanti centri di ricerca di Digital Humanities: il DHLab (Amsterdam) e il DHARC (Bologna). Il programma riunisce studiosi di spicco per esaminare e confrontare approcci nell'Estrazione, Organizzazione, Produzione e Visualizzazione della Conoscenza nei domini delle Scienze Umane e del Patrimonio Culturale.",
+        "mainAreas": [
+            "Knowledge Extraction",
+            "Knowledge Organisation",
+            "Knowledge Production",
+            "Knowledge Visualisation"
+        ],
+        "schedule": {},
+        "workshops": [
+            {
+                "title": "Introduzione all'Analisi Digitale dei Testi",
+                "organizers": [
+                    {
+                        "name": "Dr.ssa Lisa Chen",
+                        "institution": "DHLab Amsterdam"
+                    },
+                    {
+                        "name": "Prof. Giovanni Bianchi",
+                        "institution": "DHARC Bologna"
+                    }
+                ],
+                "date": "20 Maggio 2025",
+                "time": "09:30 - 12:30",
+                "location": "Laboratorio Digitale Aula 101",
+                "description": "Un workshop pratico che introduce i partecipanti ai metodi base di analisi digitale dei testi usando Python e NLTK.",
+                "prerequisites": [
+                    "Conoscenza base di Python",
+                    "Computer portatile con Python installato"
+                ],
+                "materials": [
+                    "Slide del workshop",
+                    "Dataset di esempio",
+                    "Repository del codice"
+                ],
+                "capacity": 25,
+                "level": "Principiante",
+                "tags": [
+                    "Analisi del Testo",
+                    "Python",
+                    "NLTK"
+                ]
+            },
+            {
+                "title": "Visualizzazione Dati Avanzata per le Scienze Umane",
+                "organizers": [
+                    {
+                        "name": "Dr. Michael Smith",
+                        "institution": "DHLab Amsterdam"
+                    }
+                ],
+                "date": "21 Maggio 2025",
+                "time": "14:00 - 17:00",
+                "location": "Studio di Visualizzazione",
+                "description": "Tecniche avanzate per creare visualizzazioni dati interattive usando D3.js e altri strumenti web.",
+                "prerequisites": [
+                    "Conoscenza base di JavaScript",
+                    "Familiarità con HTML/CSS"
+                ],
+                "materials": [
+                    "Documenti tutorial",
+                    "Progetti di esempio",
+                    "Risorse online"
+                ],
+                "capacity": 20,
+                "level": "Avanzato",
+                "tags": [
+                    "Visualizzazione",
+                    "D3.js",
+                    "Sviluppo Web"
+                ]
+            }
+        ],
+        "talks": [
+            {
+                "title": "Are Large Language Models reliable Knowledge Extractors? A GLAM domain perspective",
+                "speaker": "Andrea Schimmenti",
+                "institution": null,
+                "type": "Regular Talk",
+                "time": "11:00 - 11:30",
+                "description": null,
+                "keywords": [
+                    "Knowledge Extraction"
+                ],
+                "language": null
+            },
+            {
+                "title": "Semantic narratives through Semantic Web technologies: Il castello dei destini incrociati by italo calvino",
+                "speaker": "Enrica Bruno and Valentina Pasqual",
+                "institution": "DHARC",
+                "type": "Regular Talk",
+                "time": "11:00 - 11:30",
+                "description": null,
+                "keywords": [
+                    "Knowledge Organization"
+                ],
+                "language": null
+            },
+            {
+                "title": "From Words to Images: A Framework for Modeling Ekphrasis",
+                "speaker": "Maria Francesca Bocchi and Carlo Teo Pedretti",
+                "institution": null,
+                "type": "Symposium",
+                "time": "14:00 - 15:30",
+                "description": null,
+                "keywords": [
+                    "Knowledge Organization"
+                ],
+                "language": null
+            },
+            {
+                "title": "Visualizing the Humanities: a survey of visualization practices, narrativity, and critical approaches in Digital Humanities projects",
+                "speaker": "Tommaso Battisti",
+                "institution": null,
+                "type": "Symposium",
+                "time": "15:30 - 17:00",
+                "description": null,
+                "keywords": [
+                    "Knowledge Visualization"
+                ],
+                "language": null
+            },
+            {
+                "title": "Born Digital Archives",
+                "speaker": "Lucia Giagnolini",
+                "institution": null,
+                "type": "Symposium",
+                "time": "16:00 - 17:30",
+                "description": null,
+                "keywords": [
+                    "Knowledge Organization"
+                ],
+                "language": null
+            },
+            {
+                "title": "Understanding questions: natural language queries and knowledge graphs",
+                "speaker": "Remo Grillo",
+                "institution": null,
+                "type": "Symposium",
+                "time": "15:30 - 17:00",
+                "description": null,
+                "keywords": [
+                    "Knowledge Extraction"
+                ],
+                "language": null
+            },
+            {
+                "title": "From Data to Meaning: Narrative Visualization for Critical Thinking in Semantic Web Learning",
+                "speaker": "Giulia Renda",
+                "institution": null,
+                "type": "Regular Talk",
+                "time": "14:30 - 15:00",
+                "description": null,
+                "keywords": [
+                    "Knowledge Visualization"
+                ],
+                "language": null
+            },
+            {
+                "title": "Temporary exhibitions in virtual environments",
+                "speaker": "Arianna Moretti and Sebastian Barzaghi",
+                "institution": null,
+                "type": "Symposium",
+                "time": "14:00 - 15:30",
+                "description": null,
+                "keywords": [
+                    "Knowledge Organization"
+                ],
+                "language": null
+            },
+            {
+                "title": "Formulaic language in historical political-administrative corpora",
+                "speaker": "Marijn Koolen",
+                "institution": null,
+                "type": "Regular Talk",
+                "time": "10:30 - 11:00",
+                "description": null,
+                "keywords": [
+                    "Knowledge Extraction"
+                ],
+                "language": null
+            },
+            {
+                "title": "Automatic Extraction and Diachronic Analysis of Olfactory Language",
+                "speaker": "Teresa Paccosi",
+                "institution": null,
+                "type": "Regular Talk",
+                "time": "12:00 - 12:30",
+                "description": null,
+                "keywords": [
+                    "Knowledge Extraction"
+                ],
+                "language": null
+            },
+            {
+                "title": "Encoding documents as graphs using markup",
+                "speaker": "Ronald Haentjens Dekker",
+                "institution": "DHLab",
+                "type": "Regular Talk",
+                "time": "11:30 - 12:00",
+                "description": null,
+                "keywords": [
+                    "Knowledge Production"
+                ],
+                "language": null
+            },
+            {
+                "title": "Research in Action: Practical Approaches to Archival Data",
+                "speaker": "Gauri Bhagwat",
+                "institution": null,
+                "type": "Symposium",
+                "time": "16:00 - 17:30",
+                "description": null,
+                "keywords": [
+                    "Knowledge Extraction"
+                ],
+                "language": null
+            },
+            {
+                "title": "Hardships in Narratological Modeling and Literary Language Processing",
+                "speaker": "Joris Van Zundert",
+                "institution": null,
+                "type": "Regular Talk",
+                "time": "12:30 - 13:00",
+                "description": null,
+                "keywords": [
+                    "Knowledge Extraction"
+                ],
+                "language": null
+            },
+            {
+                "title": "Why NLP + SW is a golden combo for Digital Humanities",
+                "speaker": "Marieke Van Erp",
+                "institution": "DHLab",
+                "type": "Keynote",
+                "time": "10:00 - 10:30",
+                "description": null,
+                "keywords": [
+                    "Knowledge Organisation",
+                    "Knowledge Extraction"
+                ],
+                "language": null
+            },
+            {
+                "title": "Semantic Change",
+                "speaker": "Jiaqi Zhu",
+                "institution": null,
+                "type": "Symposium",
+                "time": "14:00 - 15:30",
+                "description": null,
+                "keywords": [],
+                "language": null
+            }]
+}
+}

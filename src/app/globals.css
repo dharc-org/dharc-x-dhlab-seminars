@@ -1,0 +1,185 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #121212; /* Lighter dark background (changed from #000000) */
+  --foreground: #F2F2F2; /* Light text color */
+  --primary-color: #00BFFF; /* Example primary color */
+  --secondary-color: #FFFFFF; /* Example secondary color */
+}
+
+@font-face {
+  font-family: SequelBold;
+  src: url(./assets/fonts/Sequel/SequelSansBoldDisp.woff2);
+}
+
+@font-face {
+  font-family: SequelSemiBold;
+  src: url(./assets/fonts/Sequel/SequelSansSemiBoldDisp.woff2);
+}
+
+@font-face {
+  font-family: SequelMedium;
+  src: url(./assets/fonts/Sequel/SequelSansMediumDisp.woff2);
+}
+
+@font-face {
+  font-family: SequelLight;
+  src: url(./assets/fonts/Sequel/SequelSansLightDisp.woff2);
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: SequelMedium, Arial, Helvetica, sans-serif; /* Use SequelMedium as the default font */
+}
+
+h1, h2, h3, h4 {
+  color: var(--foreground);
+}
+
+a {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.seminar-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center align items */
+  padding: 20px;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+.navbar {
+  background-color: #00BFFF; /* Primary color */
+  padding: 10px;
+  color: white;
+  text-align: center;
+}
+
+.language-switch-button {
+  margin: 10px 0;
+  padding: 10px 20px; /* Added padding for better appearance */
+  background-color: #007BFF; /* Button color */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s; /* Smooth transition */
+}
+
+.language-switch-button:hover {
+  background-color: #0056b3; /* Darker shade on hover */
+}
+
+.participants-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+.participants-table th, .participants-table td {
+  border: 1px solid #ddd;
+  padding: 12px; /* Increased padding for better readability */
+  text-align: left;
+}
+
+.participants-table th {
+  background-color: #007BFF; /* Header color */
+  color: white;
+}
+
+.footer {
+  margin-top: 20px;
+  text-align: center;
+  padding: 10px;
+  background-color: #00BFFF; /* Footer color */
+  color: white;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.scrollbar-hide {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+/* Custom Scrollbar Styles */
+.scrollbar-thin::-webkit-scrollbar {
+  height: 6px;
+}
+
+.scrollbar-thin::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.scrollbar-thin::-webkit-scrollbar-thumb {
+  background: #4a4a4a;
+  border-radius: 3px;
+}
+
+.scrollbar-thin::-webkit-scrollbar-thumb:hover {
+  background: #666;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.scrollbar-thin {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: thin;  /* Firefox */
+  scrollbar-color: #4a4a4a transparent;  /* Firefox */
+}
+
+/* Swiper Styles */
+.swiper-slide {
+  width: auto;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .swiper-container {
+    padding: 0 16px;
+  }
+}
+
+/* Hero gradient overlay */
+.hero-gradient {
+  background: linear-gradient(
+    135deg,
+    rgba(14, 165, 233, 0.15),
+    rgba(37, 99, 235, 0.15)
+  );
+}
+
+/* Improved backdrop blur */
+.backdrop-blur-sm {
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+}
+
+/* Hero background enhancements */
+.hero-pattern {
+  mask-image: linear-gradient(to bottom, 
+    rgba(0, 0, 0, 1) 0%,
+    rgba(0, 0, 0, 0.8) 50%,
+    rgba(0, 0, 0, 0) 100%
+  );
+}
+
+.hero-overlay {
+  background: radial-gradient(
+    circle at top right,
+    rgba(14, 165, 233, 0.15),
+    transparent 50%
+  );
+}
