@@ -17,7 +17,7 @@ const ResearchCenters = () => {
             <div className="flex flex-col items-center space-y-6 p-8 rounded-xl bg-[#252525] hover:bg-[#303030] transition-colors h-full shadow-md">
               <div className="h-[120px] flex items-center justify-center w-full">
                 <Image
-                  src={getImagePath('/images/dharc_exact_logo.png')}
+                  src={getImagePath('/images/dharc_logo.png')}
                   alt="DH.arc Logo"
                   width={150}
                   height={150}

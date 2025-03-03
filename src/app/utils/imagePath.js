@@ -10,7 +10,7 @@ export function getImagePath(path) {
   // In production, use the full GitHub repository URL
   if (process.env.NODE_ENV === 'production') {
     // Using the exact GitHub raw content URL
-    return `https://raw.githubusercontent.com/aschimmenti/dharc-x-dhlab-building-landscapes/refs/heads/main/public/${cleanPath}`;
+    return `https://raw.githubusercontent.com/dharc-org/dharc-x-dhlab-seminars/refs/heads/main/public/${cleanPath}`;
   }
   
   // For local development
