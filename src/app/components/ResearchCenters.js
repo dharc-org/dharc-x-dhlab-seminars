@@ -1,12 +1,18 @@
 import React from 'react';
 import Image from 'next/image';
-import { getImagePath } from '../utils/imagePath';
 
 const ResearchCenters = () => {
   return (
-    <div className="relative bg-[#111111]/80 backdrop-blur-sm py-16">
+    <div className="relative bg-background/90 backdrop-blur-sm py-16">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        {/* Titolo della sezione aggiunto qui */}
+        <h2 className="text-4xl font-bold tracking-wide text-center mb-16 text-foreground">
+          Research Centers
+        </h2>
+
         <div className="grid md:grid-cols-2 gap-12 items-stretch">
+          
           {/* DH.arc Section */}
           <a 
             href="https://centri.unibo.it/dharc/en" 
@@ -14,10 +20,10 @@ const ResearchCenters = () => {
             rel="noopener noreferrer"
             className="group h-full"
           >
-            <div className="flex flex-col items-center space-y-6 p-8 rounded-xl bg-[#252525] hover:bg-[#303030] transition-colors h-full shadow-md">
+            <div className="flex flex-col items-center space-y-6 p-8 rounded-xl bg-card-background hover:brightness-110 transition-all h-full shadow-md">
               <div className="h-[120px] flex items-center justify-center w-full">
                 <Image
-                  src={getImagePath('/images/dharc_logo.png')}
+                  src={'/images/dharc_logo.png'}
                   alt="DH.arc Logo"
                   width={150}
                   height={150}
@@ -26,8 +32,8 @@ const ResearchCenters = () => {
                 />
               </div>
               <div className="text-center mt-auto">
-                <h3 className="text-xl font-bold mb-2 tracking-wide">Digital Humanities Advanced Research Centre</h3>
-                <p className="text-gray-400">University of Bologna</p>
+                <h3 className="text-xl font-bold mb-2 tracking-wide text-foreground">Digital Humanities Advanced Research Centre</h3>
+                <p className="text-foreground/70">University of Bologna</p>
                 <p className="mt-4 text-sm text-primary">Part of the Bologna Digital Humanities ecosystem</p>
               </div>
             </div>
@@ -40,10 +46,10 @@ const ResearchCenters = () => {
             rel="noopener noreferrer"
             className="group h-full"
           >
-            <div className="flex flex-col items-center space-y-6 p-8 rounded-xl bg-[#252525] hover:bg-[#303030] transition-colors h-full shadow-md">
+            <div className="flex flex-col items-center space-y-6 p-8 rounded-xl bg-card-background hover:brightness-110 transition-all h-full shadow-md">
               <div className="h-[120px] flex items-center justify-center w-full">
                 <Image
-                  src={getImagePath('/images/dhlab_logo.png')}
+                  src={'/images/dhlab_logo.png'}
                   alt="DHLab Logo"
                   width={180}
                   height={70}
@@ -52,16 +58,17 @@ const ResearchCenters = () => {
                 />
               </div>
               <div className="text-center mt-auto">
-                <h3 className="text-xl font-bold mb-2 tracking-wide">Digital Humanities Lab</h3>
-                <p className="text-gray-400">KNAW Humanities Cluster</p>
+                <h3 className="text-xl font-bold mb-2 tracking-wide text-foreground">Digital Humanities Lab</h3>
+                <p className="text-foreground/70">KNAW Humanities Cluster</p>
                 <p className="mt-4 text-sm text-primary">Inter-institutional research group</p>
               </div>
             </div>
           </a>
+
         </div>
       </div>
     </div>
   );
 };
 
-export default ResearchCenters; 
+export default ResearchCenters;
