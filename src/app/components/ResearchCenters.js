@@ -1,5 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
+import { getImagePath } from '../utils/getImagePath';
 
 const ResearchCenters = () => {
   return (
@@ -23,7 +24,7 @@ const ResearchCenters = () => {
             <div className="flex flex-col items-center space-y-6 p-8 rounded-xl bg-card-background hover:brightness-110 transition-all h-full shadow-md">
               <div className="h-[120px] flex items-center justify-center w-full">
                 <Image
-                  src={'/images/dharc_logo.png'}
+                  src={getImagePath('/images/dharc_logo.png')}
                   alt="DH.arc Logo"
                   width={150}
                   height={150}
@@ -49,7 +50,7 @@ const ResearchCenters = () => {
             <div className="flex flex-col items-center space-y-6 p-8 rounded-xl bg-card-background hover:brightness-110 transition-all h-full shadow-md">
               <div className="h-[120px] flex items-center justify-center w-full">
                 <Image
-                  src={'/images/dhlab_logo.png'}
+                  src={getImagePath('/images/dhlab_logo.png')}
                   alt="DHLab Logo"
                   width={180}
                   height={70}

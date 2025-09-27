@@ -5,6 +5,7 @@ import HeroBackground from "./components/HeroBackground";
 import ResearchCenters from "./components/ResearchCenters";
 import Schedule from "./components/Schedule";
 import Footer from "./components/Footer";
+import { getImagePath } from "./utils/getImagePath";
 
 const SeminarContent = () => {
   const [language, setLanguage] = useState("en");
@@ -36,7 +37,7 @@ const SeminarContent = () => {
         <div className="absolute inset-0">
           {/* ===== INIZIO MODIFICA ===== */}
           <img
-            src="/images/header_bg.png"
+            src={getImagePath("/images/header_bg.png")}
             alt="Abstract background image for the seminar"
             className="absolute inset-0 w-full h-full object-cover opacity-90"
           />
