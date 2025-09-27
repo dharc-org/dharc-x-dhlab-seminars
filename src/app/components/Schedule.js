@@ -60,7 +60,8 @@ const Schedule = ({ schedule, labels }) => {
               <div key={sessionIndex} className="mb-12">
                 <div className="mb-8">
                   <h4 className="text-2xl font-semibold tracking-wider text-foreground">{session.sessionTitle}</h4>
-                  {session.chair && <p className="text-md text-foreground/70 italic mt-1">Chair: {session.chair}</p>}
+                  {/* Chair information hidden until confirmed */}
+                  {/* {session.chair && <p className="text-md text-foreground/70 italic mt-1">Chair: {session.chair}</p>} */}
                 </div>
                 
                 <div className="flex flex-col gap-8">
