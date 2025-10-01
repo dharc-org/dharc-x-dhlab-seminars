@@ -17,8 +17,8 @@ export default {
         secondary: 'rgb(var(--secondary-color) / <alpha-value>)',
       },
       fontFamily: {
-        // La tua configurazione per i font è rimasta invariata
-        sequel: ['SequelMedium', 'Arial', 'Helvetica', 'sans-serif'],
+        sans: ['var(--font-satoshi)', 'sans-serif'],
+        mono: ['var(--font-roboto-mono)', 'monospace'],
       },
     },
   },

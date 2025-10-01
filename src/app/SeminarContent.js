@@ -1,15 +1,25 @@
 "use client";
 import { useState } from "react";
-import seminarData from "./data/seminarData.json";
+import { seminarData } from "./data/seminarData.js";
+import RegistrationCTA from "./components/RegistrationCTA.js";
 import HeroBackground from "./components/HeroBackground";
 import ResearchCenters from "./components/ResearchCenters";
 import Schedule from "./components/Schedule";
 import Footer from "./components/Footer";
 import { getImagePath } from "./utils/getImagePath";
+import About from "./components/About.js";
+import SectionTitle from "./components/SectionTitle.js";
 
 const SeminarContent = () => {
   const [language, setLanguage] = useState("en");
   const content = seminarData[language] || {};
+  const descriptionText = content.subtitle || "";
+
+  const [openSection, setOpenSection] = useState('program');
+
+  const handleToggleSection = (sectionName) => {
+    setOpenSection(openSection === sectionName ? null : sectionName);
+  };
 
   return (
     <div className="min-h-screen bg-background text-foreground">
@@ -33,7 +43,7 @@ const SeminarContent = () => {
       </nav>
 
       {/* Hero Section */}
-      <div className="relative overflow-hidden bg-background pt-16 pb-32">
+      <div className="relative overflow-hidden bg-background pt-16 pb-16">
         <div className="absolute inset-0">
           {/* ===== INIZIO MODIFICA ===== */}
           <img
@@ -48,28 +58,108 @@ const SeminarContent = () => {
         <div className="relative">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-20 pb-16 lg:pt-32">
             <div className="relative z-10 max-w-3xl">
-              <h1 className="text-5xl font-bold tracking-wide leading-tight mb-8">
+              <h1 className="text-5xl font-bold tracking-wide leading-tight mb-2">
                 {content.title || ""}
               </h1>
-              <div className="flex items-center gap-4 text-xl tracking-wider text-primary mb-8">
-                <span>{content.date || ""}</span>
+
+              {content.subtitle && (
+                <h2 className="text-3xl md:text-4xl mt-0 mb-8 tracking-wide leading-tight">
+                  {content.subtitle.map((part, index) => (
+                    <span key={index} className={(part.styles || []).join(" ")}>
+                      {part.text}
+                    </span>
+                  ))}
+                </h2>
+              )}
+
+              <div className="flex flex-wrap items-center justify-start gap-x-4 gap-y-2 text-base mb-8">
+                {/* Pillola per la Data */}
+                <div className="bg-primary text-white rounded-full px-4 py-1 font-bold tracking-wider">
+                  <span>{content.date || ""}</span>
+                </div>
+
+                {/* Punto di Separazione */}
                 <span className="w-2 h-2 rounded-full bg-primary"></span>
-                <span>{content.location || ""}</span>
+
+                {/* Pillola per la Location */}
+                <div className="bg-primary text-white rounded-full px-4 py-1 font-bold tracking-wider">
+                  <span>{content.location || ""}</span>
+                </div>
               </div>
-              <p className="text-xl text-foreground leading-relaxed tracking-wide">
-                {content.description || ""}
-              </p>
+              <div className="space-y-4 text-xl text-foreground/90 leading-relaxed">
+                {content.introductoryText &&
+                  content.introductoryText.map((paragraph, pIndex) => (
+                    <p key={pIndex}>
+                      {Array.isArray(paragraph)
+                        ? paragraph.map((chunk, cIndex) => {
+                            const classNames = (chunk.styles || []).join(" ");
+
+                            if (chunk.href) {
+                              return (
+                                <a
+                                  key={cIndex}
+                                  href={chunk.href}
+                                  className={`${classNames} text-primary hover:underline`}
+                                >
+                                  {chunk.text}
+                                </a>
+                              );
+                            }
+
+                            return (
+                              <span key={cIndex} className={classNames}>
+                                {chunk.text}
+                              </span>
+                            );
+                          })
+                        : paragraph}
+                    </p>
+                  ))}
+              </div>
             </div>
           </div>
         </div>
       </div>
 
+      <RegistrationCTA registration={content.registration} />
+
       {/* Schedule Component */}
 
-      <Schedule
-        schedule={content.schedule || []}
-        labels={content.scheduleLabels || {}}
-      />
+      <section className="py-16 md:py-24 bg-background">
+        <div className="text-center">
+          <SectionTitle 
+            onClick={() => handleToggleSection('program')}
+            isOpen={openSection === 'program'}
+          >
+            {content.scheduleLabels.title || 'Program'}
+          </SectionTitle>
+        </div>
+        
+        {/* Il componente Schedule viene mostrato solo se 'openSection' è 'program' */}
+        {openSection === 'program' && (
+          <Schedule
+            schedule={content.schedule || []}
+            labels={content.scheduleLabels || {}}
+          />
+        )}
+      </section>
+
+      {/* --- SEZIONE ABOUT --- */}
+      <section className="py-16 md:py-24 bg-background border-t border-border">
+        <div className="text-center">
+          <SectionTitle 
+            onClick={() => handleToggleSection('about')}
+            isOpen={openSection === 'about'}
+          >
+            {content.about.title || 'About'}
+          </SectionTitle>
+        </div>
+
+        {/* Il componente About viene mostrato solo se 'openSection' è 'about' */}
+        {openSection === 'about' && (
+          <About about={content.about} />
+        )}
+      </section>
 
       {/* Research Centers Component */}
       <ResearchCenters />

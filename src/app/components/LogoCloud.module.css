@@ -1,0 +1,36 @@
+/* src/app/components/LogoCloud.module.css */
+
+.logoGrid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem; 
+  padding: 1rem 0; 
+}
+
+.logoWrapper {
+  width: 150px;
+  height: 80px; 
+  position: relative; /* <--- CAMBIAMENTO CRUCIALE: Rendi il wrapper posizionato relativamente */
+  display: flex; 
+  align-items: center; 
+  justify-content: center;
+  transition: transform 0.3s ease;
+  /* Aggiungi un bordo per debug per vedere l'effettiva dimensione del wrapper */
+  /* border: 1px solid red; */ 
+}
+
+.logoWrapper:hover {
+  transform: scale(1.1);
+}
+
+@media (max-width: 768px) {
+  .logoGrid {
+    gap: 3rem; 
+  }
+  .logoWrapper {
+    width: 120px;
+    height: 70px;
+  }
+}

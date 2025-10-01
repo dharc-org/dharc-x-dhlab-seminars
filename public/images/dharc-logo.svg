@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="23 125 151 151">
+  <path d="M 28.626 130.542 L 158.626 130.542 C 165.293 130.542 168.626 133.875 168.626 140.542 L 168.626 270.542 L 38.626 270.542 C 31.959 270.542 28.626 267.208 28.626 260.542 L 28.626 130.542" fill="none" stroke="#B22222" stroke-width="2"/>
+  <circle cx="28.626" cy="130.542" r="5" fill="white" stroke="#B22222" stroke-width="1.5"/>
+  <circle cx="168.626" cy="270.542" r="5" fill="white" stroke="#B22222" stroke-width="1.5"/>
+  <circle cx="118.626" cy="130.542" r="5" fill="white" stroke="#B22222" stroke-width="1.5"/>
+  <circle cx="168.626" cy="180.542" r="5" fill="white" stroke="#B22222" stroke-width="1.5"/>
+  <circle cx="78.626" cy="270.542" r="5" fill="white" stroke="#B22222" stroke-width="1.5"/>
+  <circle cx="28.626" cy="220.542" r="5" fill="white" stroke="#B22222" stroke-width="1.5"/>
+  <circle cx="78.626" cy="180.542" r="5" fill="white" stroke="#B22222" stroke-width="1.5"/>
+  <circle cx="118.626" cy="180.542" r="5" fill="#B22222" stroke="#B22222" stroke-width="0"/>
+  <circle cx="78.626" cy="220.542" r="5" fill="#B22222" stroke="#B22222" stroke-width="0"/>
+  <circle cx="118.626" cy="220.542" r="5" fill="white" stroke="#B22222" stroke-width="1.5"/>
+</svg>
