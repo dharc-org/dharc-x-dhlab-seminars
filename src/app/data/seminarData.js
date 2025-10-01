@@ -126,8 +126,9 @@ export const seminarData = {
       title: "Program",
     },
     footer: {
-      fundingText: "This event is funded by Fondazione Carisbo through the Cultura e Rigenerazione 2025 program.",
-      fundingLink: "https://fondazionecarisbo.it/bandi-e-iniziative/cultura-e-rigenerazione/",
+      fundingText: "This event is funded by Fondazione Carisbo through the Cultura e Rigenerazione 2025 program and by Alma Mater Studiorum - University of Bologna.",
+      fundingLinkCarisbo: "https://fondazionecarisbo.it/bandi-e-iniziative/cultura-e-rigenerazione/",
+      fundingLinkUnibo: "https://ficlit.unibo.it/it",
     },
     schedule: [
       {
@@ -520,8 +521,9 @@ export const seminarData = {
       title: "Programma",
     },
     footer: {
-      fundingText: "L'evento è finanziato da Fondazione Carisbo attraverso il bando Cultura e Rigenerazione 2025.",
-      fundingLink: "https://fondazionecarisbo.it/bandi-e-iniziative/cultura-e-rigenerazione/",
+      fundingText: "L'evento è finanziato da Fondazione Carisbo attraverso il bando Cultura e Rigenerazione 2025 e da Alma Mater Studiorum - Università di Bologna.",
+      fundingLinkCarisbo: "https://fondazionecarisbo.it/bandi-e-iniziative/cultura-e-rigenerazione/",
+      fundingLinkUnibo: "https://ficlit.unibo.it/it",
     },
     schedule: [
       {

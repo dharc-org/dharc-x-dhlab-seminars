@@ -155,14 +155,23 @@ const Footer = ({ language = 'en' }) => {
               <span className="font-bold">Fondazione Carisbo</span>
               {content.footer.fundingText.split('Fondazione Carisbo')[1].split('Cultura e Rigenerazione 2025')[0]}
               <a
-                href={content.footer.fundingLink}
+                href={content.footer.fundingLinkCarisbo}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-primary hover:underline font-bold ml-1"
               >
                 Cultura e Rigenerazione 2025
               </a>
-              {content.footer.fundingText.split('Cultura e Rigenerazione 2025')[1]}
+              {content.footer.fundingText.split('Cultura e Rigenerazione 2025')[1].split('Alma Mater Studiorum')[0]}
+              <a
+                href={content.footer.fundingLinkUnibo}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-primary hover:underline font-bold"
+              >
+                Alma Mater Studiorum - {language === 'en' ? 'University of Bologna' : 'Università di Bologna'}
+              </a>
+              {content.footer.fundingText.split('Alma Mater Studiorum')[1].split(language === 'en' ? 'University of Bologna' : 'Università di Bologna')[1]}
             </p>
           </div>
         </div>
