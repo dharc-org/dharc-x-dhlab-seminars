@@ -125,6 +125,10 @@ export const seminarData = {
     scheduleLabels: {
       title: "Program",
     },
+    footer: {
+      fundingText: "This event is funded by Fondazione Carisbo through the Cultura e Rigenerazione 2025 program.",
+      fundingLink: "https://fondazionecarisbo.it/bandi-e-iniziative/cultura-e-rigenerazione/",
+    },
     schedule: [
       {
         dayTitle: "Day 1",
@@ -514,6 +518,10 @@ export const seminarData = {
     },
     scheduleLabels: {
       title: "Programma",
+    },
+    footer: {
+      fundingText: "L'evento è finanziato da Fondazione Carisbo attraverso il bando Cultura e Rigenerazione 2025.",
+      fundingLink: "https://fondazionecarisbo.it/bandi-e-iniziative/cultura-e-rigenerazione/",
     },
     schedule: [
       {

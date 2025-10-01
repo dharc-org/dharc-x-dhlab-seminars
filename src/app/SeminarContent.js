@@ -165,7 +165,7 @@ const SeminarContent = () => {
       <ResearchCenters />
 
       {/* Footer Component */}
-      <Footer />
+      <Footer language={language} />
     </div>
   );
 };

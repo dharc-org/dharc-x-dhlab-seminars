@@ -1,7 +1,9 @@
 import React from "react";
 import LogoCloud from './LogoCloud';
+import { seminarData } from '../data/seminarData';
 
-const Footer = () => {
+const Footer = ({ language = 'en' }) => {
+  const content = seminarData[language] || seminarData['en'];
   const committeeMembers = [
     {
       name: "Andrea Schimmenti",
@@ -149,29 +151,18 @@ const Footer = () => {
         <div className="mt-8 pt-8 border-t border-border">
           <div className="max-w-4xl mx-auto text-center">
             <p className="text-base md:text-lg text-foreground font-semibold">
-              This event is funded by <span className="font-bold">Fondazione Carisbo</span> through the
+              {content.footer.fundingText.split('Fondazione Carisbo')[0]}
+              <span className="font-bold">Fondazione Carisbo</span>
+              {content.footer.fundingText.split('Fondazione Carisbo')[1].split('Cultura e Rigenerazione 2025')[0]}
               <a
-                href="https://fondazionecarisbo.it/bandi-e-iniziative/cultura-e-rigenerazione/"
+                href={content.footer.fundingLink}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-primary hover:underline font-bold ml-1"
               >
                 Cultura e Rigenerazione 2025
               </a>
-              
-              program.
-            </p>
-            <p className="text-base md:text-lg text-foreground/90 mt-2">
-              L'evento è finanziato da <span className="font-bold">Fondazione Carisbo</span> attraverso il bando
-              <a
-                href="https://fondazionecarisbo.it/bandi-e-iniziative/cultura-e-rigenerazione/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-primary hover:underline font-bold ml-1"
-              >
-                Cultura e Rigenerazione 2025
-              </a>
-              .
+              {content.footer.fundingText.split('Cultura e Rigenerazione 2025')[1]}
             </p>
           </div>
         </div>
