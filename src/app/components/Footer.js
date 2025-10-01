@@ -142,6 +142,40 @@ const Footer = () => {
             <p>40126 Bologna, Italy</p>
           </div>
         </div>
+
+        {/* ================================================================ */}
+        {/* == FUNDING ATTRIBUTION ========================================= */}
+        {/* ================================================================ */}
+        <div className="mt-8 pt-8 border-t border-border">
+          <div className="max-w-4xl mx-auto text-center">
+            <p className="text-base md:text-lg text-foreground font-semibold">
+              This event is funded by <span className="font-bold">Fondazione Carisbo</span> through the
+              <a
+                href="https://fondazionecarisbo.it/bandi-e-iniziative/cultura-e-rigenerazione/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-primary hover:underline font-bold ml-1"
+              >
+                Cultura e Rigenerazione 2025
+              </a>
+              
+              program.
+            </p>
+            <p className="text-base md:text-lg text-foreground/90 mt-2">
+              L'evento è finanziato da <span className="font-bold">Fondazione Carisbo</span> attraverso il bando
+              <a
+                href="https://fondazionecarisbo.it/bandi-e-iniziative/cultura-e-rigenerazione/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-primary hover:underline font-bold ml-1"
+              >
+                Cultura e Rigenerazione 2025
+              </a>
+              .
+            </p>
+          </div>
+        </div>
+
         {/* ================================================================ */}
         {/* == INIZIO SEZIONE LOGHI ======================================== */}
         {/* ================================================================ */}
