@@ -50,7 +50,7 @@ const Schedule = ({ schedule, labels }) => {
   }
 
   return (
-    <section className="py-20 md:py-32 bg-background">
+    <section className="py-2 md:py-4 bg-background">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
         {schedule.map((day, dayIndex) => (

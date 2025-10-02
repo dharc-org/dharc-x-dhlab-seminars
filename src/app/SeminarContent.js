@@ -16,10 +16,16 @@ const SeminarContent = () => {
   const content = seminarData[language] || {};
   const descriptionText = content.subtitle || "";
 
-  const [openSection, setOpenSection] = useState('program');
+  const [openSections, setOpenSections] = useState({
+    program: true,
+    about: true
+  });
 
   const handleToggleSection = (sectionName) => {
-    setOpenSection(openSection === sectionName ? null : sectionName);
+    setOpenSections(prev => ({
+      ...prev,
+      [sectionName]: !prev[sectionName]
+    }));
   };
 
   return (
@@ -28,12 +34,38 @@ const SeminarContent = () => {
       <nav className="fixed top-0 w-full bg-background z-50 border-b border-gray-800">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
-            <div className="flex items-center">
+            <div className="flex items-center space-x-8">
               <img
                 src={getImagePath("/images/dhlandscapes_logo.svg")}
                 alt="DH Landscapes Logo"
                 className="h-8 w-auto"
               />
+              <div className="hidden md:flex items-center space-x-6">
+                <a
+                  href="#program"
+                  className="text-sm font-medium hover:text-primary transition-colors"
+                >
+                  Program
+                </a>
+                <a
+                  href="#about"
+                  className="text-sm font-medium hover:text-primary transition-colors"
+                >
+                  About
+                </a>
+                <a
+                  href="#research-centers"
+                  className="text-sm font-medium hover:text-primary transition-colors"
+                >
+                  Research Centers
+                </a>
+                <a
+                  href="#committee"
+                  className="text-sm font-medium hover:text-primary transition-colors"
+                >
+                  Committee
+                </a>
+              </div>
             </div>
             <button
               className="px-4 py-2 text-sm border border-gray-600 rounded-md hover:bg-gray-800 transition-colors"
@@ -133,18 +165,18 @@ const SeminarContent = () => {
 
       {/* Schedule Component */}
 
-      <section className="py-16 md:py-24 bg-background">
+      <section id="program" className="py-4 md:py-6 bg-background">
         <div className="text-center">
           <SectionTitle 
             onClick={() => handleToggleSection('program')}
-            isOpen={openSection === 'program'}
+            isOpen={openSections.program}
           >
             {content.scheduleLabels.title || 'Program'}
           </SectionTitle>
         </div>
         
-        {/* Il componente Schedule viene mostrato solo se 'openSection' è 'program' */}
-        {openSection === 'program' && (
+        {/* Il componente Schedule viene mostrato solo se openSections.program è true */}
+        {openSections.program && (
           <Schedule
             schedule={content.schedule || []}
             labels={content.scheduleLabels || {}}
@@ -153,27 +185,31 @@ const SeminarContent = () => {
       </section>
 
       {/* --- SEZIONE ABOUT --- */}
-      <section className="py-16 md:py-24 bg-background border-t border-border">
+      <section id="about" className="py-4 md:py-6 bg-background border-t border-border">
         <div className="text-center">
           <SectionTitle 
             onClick={() => handleToggleSection('about')}
-            isOpen={openSection === 'about'}
+            isOpen={openSections.about}
           >
             {content.about.title || 'About'}
           </SectionTitle>
         </div>
 
-        {/* Il componente About viene mostrato solo se 'openSection' è 'about' */}
-        {openSection === 'about' && (
+        {/* Il componente About viene mostrato solo se openSections.about è true */}
+        {openSections.about && (
           <About about={content.about} />
         )}
       </section>
 
       {/* Research Centers Component */}
-      <ResearchCenters />
+      <div id="research-centers">
+        <ResearchCenters />
+      </div>
 
       {/* Footer Component */}
-      <Footer language={language} />
+      <div id="committee">
+        <Footer language={language} />
+      </div>
     </div>
   );
 };

@@ -8,7 +8,7 @@ const Footer = ({ language = 'en' }) => {
     {
       name: "Andrea Schimmenti",
       affiliation: "University of Bologna",
-      role: "Chair",
+      role: "Member",
       isProfessor: false,
     },
     {
@@ -54,15 +54,9 @@ const Footer = ({ language = 'en' }) => {
       isProfessor: false,
     },
     {
-      name: "Dr. Marieke Van Erp",
-      affiliation: "KNAW Humanities Cluster",
-      role: "Coordinator",
-      isProfessor: true,
-    },
-    {
       name: "Prof. Francesca Tomasi",
       affiliation: "University of Bologna",
-      role: "Chair and Supervisor",
+      role: "Supervisor",
       isProfessor: true,
     },
   ];
