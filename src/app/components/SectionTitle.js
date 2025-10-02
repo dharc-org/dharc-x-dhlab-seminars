@@ -2,7 +2,7 @@ const SectionTitle = ({ children, onClick, isOpen }) => {
   return (
     <button
       onClick={onClick}
-      className="inline-block border border-foreground rounded-full px-6 py-2 text-base font-bold uppercase tracking-widest transition-colors duration-300 ease-in-out hover:bg-foreground hover:text-background focus:outline-none focus:ring-2 focus:ring-primary"
+      className="inline-block border border-foreground rounded-full px-6 py-2 text-base font-bold uppercase tracking-widest transition-colors duration-300 ease-in-out hover:bg-primary hover:text-white hover:border-primary focus:outline-none focus:ring-2 focus:ring-primary"
     >
       <div className="flex items-center gap-3">
         <span>{children}</span>
