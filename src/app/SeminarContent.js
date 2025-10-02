@@ -18,7 +18,9 @@ const SeminarContent = () => {
 
   const [openSections, setOpenSections] = useState({
     program: true,
-    about: true
+    about: true,
+    researchCenters: true,
+    committee: true
   });
 
   const handleToggleSection = (sectionName) => {
@@ -166,7 +168,7 @@ const SeminarContent = () => {
       {/* Schedule Component */}
 
       <section id="program" className="py-4 md:py-6 bg-background">
-        <div className="text-center">
+        <div className="text-center mb-6">
           <SectionTitle 
             onClick={() => handleToggleSection('program')}
             isOpen={openSections.program}
@@ -186,7 +188,7 @@ const SeminarContent = () => {
 
       {/* --- SEZIONE ABOUT --- */}
       <section id="about" className="py-4 md:py-6 bg-background border-t border-border">
-        <div className="text-center">
+        <div className="text-center mb-6">
           <SectionTitle 
             onClick={() => handleToggleSection('about')}
             isOpen={openSections.about}
@@ -201,15 +203,37 @@ const SeminarContent = () => {
         )}
       </section>
 
-      {/* Research Centers Component */}
-      <div id="research-centers">
-        <ResearchCenters />
-      </div>
+      {/* Research Centers Section */}
+      <section id="research-centers" className="py-4 md:py-6 bg-background border-t border-border">
+        <div className="text-center mb-6">
+          <SectionTitle 
+            onClick={() => handleToggleSection('researchCenters')}
+            isOpen={openSections.researchCenters}
+          >
+            Research Centers
+          </SectionTitle>
+        </div>
+        
+        {openSections.researchCenters && (
+          <ResearchCenters />
+        )}
+      </section>
 
-      {/* Footer Component */}
-      <div id="committee">
-        <Footer language={language} />
-      </div>
+      {/* Organizing Committee Section */}
+      <section id="committee" className="py-4 md:py-6 bg-background border-t border-border">
+        <div className="text-center mb-6">
+          <SectionTitle 
+            onClick={() => handleToggleSection('committee')}
+            isOpen={openSections.committee}
+          >
+            Organizing Committee
+          </SectionTitle>
+        </div>
+        
+        {openSections.committee && (
+          <Footer language={language} />
+        )}
+      </section>
     </div>
   );
 };

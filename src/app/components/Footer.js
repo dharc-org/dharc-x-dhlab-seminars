@@ -63,13 +63,10 @@ const Footer = ({ language = 'en' }) => {
 
   return (
     // CAMBIATO: Sfondo ora usa bg-background. Rimosso text-gray-300 perché ereditato da body.
-    <footer className="bg-background py-16">
+    <footer className="bg-background py-2 md:py-4">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* CAMBIATO: Colore del bordo ora usa la variabile border-border. */}
         <div className="border-b border-border pb-8 mb-8">
-          <h2 className="text-2xl font-bold mb-6 tracking-wide text-foreground">
-            Organizing Committee
-          </h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {committeeMembers.map((member, index) => (
               <div

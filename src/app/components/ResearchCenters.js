@@ -4,14 +4,8 @@ import { getImagePath } from '../utils/getImagePath';
 
 const ResearchCenters = () => {
   return (
-    <div className="relative bg-background/90 backdrop-blur-sm py-16">
+    <div className="relative bg-background/90 backdrop-blur-sm py-2 md:py-4">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        
-        {/* Titolo della sezione aggiunto qui */}
-        <h2 className="text-4xl font-bold tracking-wide text-center mb-16 text-foreground">
-          Research Centers
-        </h2>
-
         <div className="grid md:grid-cols-2 gap-12 items-stretch">
           
           {/* /DH.arc Section */}
