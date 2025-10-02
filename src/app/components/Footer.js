@@ -189,7 +189,7 @@ const Footer = ({ language = 'en' }) => {
         {/* ================================================================ */}
         <div className="mt-8 pt-8 border-t border-border text-center text-sm text-foreground/60">
           <p>
-            © {new Date().getFullYear()} DH.arc & DHLab Seminar. All rights
+            © {new Date().getFullYear()} /DH.arc & DHLab Seminar. All rights
             reserved.
           </p>
         </div>

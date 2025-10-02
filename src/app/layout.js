@@ -7,7 +7,7 @@ import { satoshi, roboto_mono } from './fonts' // Manteniamo solo l'importazione
 // 2. RIMOSSA la definizione della costante 'sequel'
 
 export const metadata = {
-  title: 'DH.arc & DHLab Seminar',
+  title: '/DH.arc & DHLab Seminar',
   description: 'Building Knowledge Landscapes Across the Digital Humanities',
 }
 
@@ -19,6 +19,7 @@ export default function RootLayout({ children }) {
       <head>
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="icon" href="/images/favicon.svg" type="image/svg+xml" />
       </head>
       {/* 4. RIMOSSA la classe 'font-sequel' dal body */}
       <body className="antialiased text-foreground">

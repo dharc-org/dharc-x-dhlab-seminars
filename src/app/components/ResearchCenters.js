@@ -14,7 +14,7 @@ const ResearchCenters = () => {
 
         <div className="grid md:grid-cols-2 gap-12 items-stretch">
           
-          {/* DH.arc Section */}
+          {/* /DH.arc Section */}
           <a 
             href="https://centri.unibo.it/dharc/en" 
             target="_blank" 
@@ -25,7 +25,7 @@ const ResearchCenters = () => {
               <div className="h-[120px] flex items-center justify-center w-full">
                 <Image
                   src={getImagePath('/images/dharc-logo.svg')}
-                  alt="DH.arc Logo"
+                  alt="/DH.arc Logo"
                   width={150}
                   height={150}
                   className="transition-transform group-hover:scale-105 object-contain"

@@ -1,5 +1,6 @@
 "use client";
 import { useState } from "react";
+import Image from "next/image";
 import { seminarData } from "./data/seminarData.js";
 import RegistrationCTA from "./components/RegistrationCTA.js";
 import HeroBackground from "./components/HeroBackground";
@@ -28,9 +29,11 @@ const SeminarContent = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center">
-              <span className="text-xl font-bold tracking-wider">
-                DH.arc + DHLab
-              </span>
+              <img
+                src={getImagePath("/images/dhlandscapes_logo.svg")}
+                alt="DH Landscapes Logo"
+                className="h-8 w-auto"
+              />
             </div>
             <button
               className="px-4 py-2 text-sm border border-gray-600 rounded-md hover:bg-gray-800 transition-colors"
@@ -58,6 +61,11 @@ const SeminarContent = () => {
         <div className="relative">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-20 pb-16 lg:pt-32">
             <div className="relative z-10 max-w-3xl">
+              <img
+                src={getImagePath("/images/dhlandscapes_logo.svg")}
+                alt="DH Landscapes Logo"
+                className="h-16 w-auto mb-6"
+              />
               <h1 className="text-5xl font-bold tracking-wide leading-tight mb-2">
                 {content.title || ""}
               </h1>

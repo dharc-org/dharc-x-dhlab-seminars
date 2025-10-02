@@ -22,7 +22,7 @@ export const seminarData = {
         {
           text: ", establishing a methodological exchange between two leading research centers, the ",
         },
-        { text: "DHARC", styles: ["font-bold"] },
+        { text: "/DH.arc", styles: ["font-bold"] },
         { text: " (Bologna) and the " },
         { text: "DHLab", styles: ["font-bold"] },
         {
@@ -95,7 +95,7 @@ export const seminarData = {
         // Paragrafo 3 (semplice, solo testo)
         "The initiative is open to researchers at any level, students, cultural heritage professionals, and information and knowledge engineers. The contributions presented will reflect research at different stages of development, ranging from exploratory ideas and pilot studies to established tools and mature projects.",
         // Paragrafo 4 (semplice)
-        "The first two days will be dedicated to talks following a conference-style format. Each day will open with a keynote introducing the main theme, delivered by the two leading figures of the partner research centers: Prof. Francesca Tomasi (DH.ARC, University of Bologna) and Dr. Marieke van Erp (DHLab, Amsterdam). Day one will explore Knowledge Organisation and Visualisation, while day two will focus on Knowledge Extraction and, more generally, on Knowledge Practices.",
+        "The first two days will be dedicated to talks following a conference-style format. Each day will open with a keynote introducing the main theme, delivered by the two leading figures of the partner research centers: Prof. Francesca Tomasi (/DH.arc, University of Bologna) and Dr. Marieke van Erp (DHLab, Amsterdam). Day one will explore Knowledge Organisation and Visualisation, while day two will focus on Knowledge Extraction and, more generally, on Knowledge Practices.",
         // Paragrafo 5 (semplice)
         "The third and final day will be entirely dedicated to two practical workshops. The first workshop will introduce methods of text annotation showing how to build specific datasets from textual data using RDF. The second workshop will explore different technologies for extracting and analysing reading experiences in online book reviews.",
         // Paragrafo 6 (complesso, con link e corsivo)
@@ -158,7 +158,7 @@ export const seminarData = {
                 title:
                   "Literary Constraints and Combinatory Structures: Towards a Semantic Model",
                 speaker: "Enrica Bruno",
-                affiliation: "DH.ARC",
+                affiliation: "/DH.arc",
               },
               {
                 time: "11:20 - 11:40",
@@ -174,7 +174,7 @@ export const seminarData = {
                 title:
                   "Copyright and Computation: Rethinking Gadda through Open Data and Visualization",
                 speaker: "Lorenzo Sabatino, Martina Pensalfini",
-                affiliation: "DH.ARC",
+                affiliation: "/DH.arc",
               },
               {
                 time: "12:30 - 12:50",
@@ -199,7 +199,7 @@ export const seminarData = {
                 title:
                   "From Words to Images: A Framework for Modeling Ekphrasis",
                 speaker: "Maria Francesca Bocchi, Carlo Teo Pedretti",
-                affiliation: "DH.ARC",
+                affiliation: "/DH.arc",
               },
               {
                 time: "14:50 - 15:10",
@@ -207,7 +207,7 @@ export const seminarData = {
                 title:
                   "Tracing the Art Market: A Digital-Semantic Workflow for the Zeri Foundation’s Historical Auction Records (1879-1929)",
                 speaker: "Valentina Rossetti, Valentina Pasqual",
-                affiliation: "DH.ARC",
+                affiliation: "/DH.arc",
               },
               { time: "15:10 - 15:40", type: "break", title: "Coffee Break" },
               {
@@ -216,7 +216,7 @@ export const seminarData = {
                 title:
                   "Experimenting a semi-automatic approach based on online surveys to formalise unstructured knowledge in linked data",
                 speaker: "Arianna Moretti, Sebastian Barzaghi",
-                affiliation: "DH.ARC",
+                affiliation: "/DH.arc",
               },
               {
                 time: "16:00 - 16:20",
@@ -224,14 +224,14 @@ export const seminarData = {
                 title:
                   "From Data to Meaning: Narrative Visualization for Critical Thinking in Semantic Web Learning",
                 speaker: "Giulia Renda",
-                affiliation: "DH.ARC",
+                affiliation: "/DH.arc",
               },
               {
                 time: "16:20 - 16:40",
                 type: "talk",
                 title: "Born Digital Archives",
                 speaker: "Lucia Giagnolini",
-                affiliation: "DH.ARC",
+                affiliation: "/DH.arc",
               },
             ],
           },
@@ -284,7 +284,7 @@ export const seminarData = {
                 title:
                   "Knowledge Extraction of Digital Hermeneutics of the Van den vos Reynaerde",
                 speaker: "Andrea Schimmenti",
-                affiliation: "DH.ARC",
+                affiliation: "/DH.arc",
               },
               { time: "11:40 - 12:10", type: "break", title: "Break" },
               {
@@ -317,7 +317,7 @@ export const seminarData = {
                 title:
                   "Understanding questions: natural language queries and knowledge graphs",
                 speaker: "Remo Grillo",
-                affiliation: "DH.ARC",
+                affiliation: "/DH.arc",
               },
               {
                 time: "14:50 - 15:10",
@@ -334,7 +334,7 @@ export const seminarData = {
                 title:
                   "Scholarly Primitives Revisited (again): Building a Taxonomy of Scholarly Digital Objects",
                 speaker: "Laurent Fintoni",
-                affiliation: "DH.ARC",
+                affiliation: "/DH.arc",
               },
               {
                 time: "16:00 - 16:20",
@@ -342,7 +342,7 @@ export const seminarData = {
                 title:
                   "Visualizing the Humanities: a survey of visualization practices, narrativity, and critical approaches in Digital Humanities projects",
                 speaker: "Tommaso Battisti",
-                affiliation: "DH.ARC",
+                affiliation: "/DH.arc",
               },
             ],
           },
@@ -416,7 +416,7 @@ export const seminarData = {
         {
           text: ", stabilendo uno scambio metodologico tra due importanti centri di ricerca, il ",
         },
-        { text: "DHARC", styles: ["font-bold"] },
+        { text: "/DH.arc", styles: ["font-bold"] },
         { text: " (Bologna) e il " },
         { text: "DHLab", styles: ["font-bold"] },
         {
@@ -490,7 +490,7 @@ export const seminarData = {
         // Paragrafo 3 (semplice, solo testo)
         "L'iniziativa è aperta a ricercatori di ogni livello, studenti, professionisti del patrimonio culturale e ingegneri dell'informazione e della conoscenza. I contributi presentati rifletteranno ricerche a diversi stadi di sviluppo, spaziando da idee esplorative e studi pilota a strumenti consolidati e progetti maturi.",
         // Paragrafo 4 (semplice)
-        "I primi due giorni saranno dedicati a interventi in stile convegno. Ogni giornata si aprirà con un keynote che introdurrà il tema principale, tenuto dalle due figure di spicco dei centri di ricerca partner: la Prof.ssa Francesca Tomasi (DH.ARC, Università di Bologna) and la Dott.ssa Marieke van Erp (DHLab, Amsterdam). La prima giornata esplorerà l'Organizzazione e la Visualizzazione della Conoscenza, mentre la seconda si concentrerà sull'Estrazione della Conoscenza e, più in generale, sulle Pratiche di Conoscenza.",
+        "I primi due giorni saranno dedicati a interventi in stile convegno. Ogni giornata si aprirà con un keynote che introdurrà il tema principale, tenuto dalle due figure di spicco dei centri di ricerca partner: la Prof.ssa Francesca Tomasi (/DH.arc, Università di Bologna) and la Dott.ssa Marieke van Erp (DHLab, Amsterdam). La prima giornata esplorerà l'Organizzazione e la Visualizzazione della Conoscenza, mentre la seconda si concentrerà sull'Estrazione della Conoscenza e, più in generale, sulle Pratiche di Conoscenza.",
         // Paragrafo 5 (semplice)
         "Il terzo e ultimo giorno sarà interamente dedicato a due workshop pratici. Il primo workshop introdurrà metodi di annotazione del testo, mostrando come costruire specifici dataset da dati testuali usando RDF. Il secondo workshop esplorerà diverse tecnologie per estrarre e analizzare le esperienze di lettura nelle recensioni di libri online.",
         // Paragrafo 6 (complesso, con link e corsivo)
@@ -554,7 +554,7 @@ export const seminarData = {
                 title:
                   "Literary Constraints and Combinatory Structures: Towards a Semantic Model",
                 speaker: "Enrica Bruno",
-                affiliation: "DH.ARC",
+                affiliation: "/DH.arc",
               },
               {
                 time: "11:20 - 11:40",
@@ -570,7 +570,7 @@ export const seminarData = {
                 title:
                   "Copyright and Computation: Rethinking Gadda through Open Data and Visualization",
                 speaker: "Lorenzo Sabatino, Martina Pensalfini",
-                affiliation: "DH.ARC",
+                affiliation: "/DH.arc",
               },
               {
                 time: "12:30 - 12:50",
@@ -595,7 +595,7 @@ export const seminarData = {
                 title:
                   "From Words to Images: A Framework for Modeling Ekphrasis",
                 speaker: "Maria Francesca Bocchi, Carlo Teo Pedretti",
-                affiliation: "DH.ARC",
+                affiliation: "/DH.arc",
               },
               {
                 time: "14:50 - 15:10",
@@ -603,7 +603,7 @@ export const seminarData = {
                 title:
                   "Tracing the Art Market: A Digital-Semantic Workflow for the Zeri Foundation’s Historical Auction Records (1879-1929)",
                 speaker: "Valentina Rossetti, Valentina Pasqual",
-                affiliation: "DH.ARC",
+                affiliation: "/DH.arc",
               },
               { time: "15:10 - 15:40", type: "break", title: "Pausa Caffè" },
               {
@@ -612,7 +612,7 @@ export const seminarData = {
                 title:
                   "Experimenting a semi-automatic approach based on online surveys to formalise unstructured knowledge in linked data",
                 speaker: "Arianna Moretti, Sebastian Barzaghi",
-                affiliation: "DH.ARC",
+                affiliation: "/DH.arc",
               },
               {
                 time: "16:00 - 16:20",
@@ -620,14 +620,14 @@ export const seminarData = {
                 title:
                   "From Data to Meaning: Narrative Visualization for Critical Thinking in Semantic Web Learning",
                 speaker: "Giulia Renda",
-                affiliation: "DH.ARC",
+                affiliation: "/DH.arc",
               },
               {
                 time: "16:20 - 16:40",
                 type: "talk",
                 title: "Born Digital Archives",
                 speaker: "Lucia Giagnolini",
-                affiliation: "DH.ARC",
+                affiliation: "/DH.arc",
               },
             ],
           },
@@ -680,7 +680,7 @@ export const seminarData = {
                 title:
                   "Knowledge Extraction of Digital Hermeneutics of the Van den vos Reynaerde",
                 speaker: "Andrea Schimmenti",
-                affiliation: "DH.ARC",
+                affiliation: "/DH.arc",
               },
               { time: "11:40 - 12:10", type: "break", title: "Pausa" },
               {
@@ -713,7 +713,7 @@ export const seminarData = {
                 title:
                   "Understanding questions: natural language queries and knowledge graphs",
                 speaker: "Remo Grillo",
-                affiliation: "DH.ARC",
+                affiliation: "/DH.arc",
               },
               {
                 time: "14:50 - 15:10",
@@ -730,7 +730,7 @@ export const seminarData = {
                 title:
                   "Scholarly Primitives Revisited (again): Building a Taxonomy of Scholarly Digital Objects",
                 speaker: "Laurent Fintoni",
-                affiliation: "DH.ARC",
+                affiliation: "/DH.arc",
               },
               {
                 time: "16:00 - 16:20",
@@ -738,7 +738,7 @@ export const seminarData = {
                 title:
                   "Visualizing the Humanities: a survey of visualization practices, narrativity, and critical approaches in Digital Humanities projects",
                 speaker: "Tommaso Battisti",
-                affiliation: "DH.ARC",
+                affiliation: "/DH.arc",
               },
             ],
           },
