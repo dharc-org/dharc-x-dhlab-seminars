@@ -37,11 +37,13 @@ const SeminarContent = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center space-x-8">
-              <img
-                src={getImagePath("/images/dhlandscapes_logo.svg")}
-                alt="DH Landscapes Logo"
-                className="h-8 w-auto"
-              />
+              <a href="#">
+                <img
+                  src={getImagePath("/images/dhlandscapes_logo.svg")}
+                  alt="DH Landscapes Logo"
+                  className="h-8 w-auto"
+                />
+              </a>
               <div className="hidden md:flex items-center space-x-6">
                 <a
                   href="#program"
