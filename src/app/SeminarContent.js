@@ -167,7 +167,7 @@ const SeminarContent = () => {
 
       {/* Schedule Component */}
 
-      <section id="program" className="py-4 md:py-6 bg-background">
+      <section id="program" className="py-4 md:py-6 bg-background scroll-mt-12">
         <div className="text-center mb-6">
           <SectionTitle 
             onClick={() => handleToggleSection('program')}
@@ -187,7 +187,7 @@ const SeminarContent = () => {
       </section>
 
       {/* --- SEZIONE ABOUT --- */}
-      <section id="about" className="py-4 md:py-6 bg-background border-t border-border">
+      <section id="about" className="py-4 md:py-6 bg-background border-t border-border scroll-mt-12">
         <div className="text-center mb-6">
           <SectionTitle 
             onClick={() => handleToggleSection('about')}
@@ -204,7 +204,7 @@ const SeminarContent = () => {
       </section>
 
       {/* Research Centers Section */}
-      <section id="research-centers" className="py-4 md:py-6 bg-background border-t border-border">
+      <section id="research-centers" className="py-4 md:py-6 bg-background border-t border-border scroll-mt-12">
         <div className="text-center mb-6">
           <SectionTitle 
             onClick={() => handleToggleSection('researchCenters')}
@@ -220,7 +220,7 @@ const SeminarContent = () => {
       </section>
 
       {/* Organizing Committee Section */}
-      <section id="committee" className="py-4 md:py-6 bg-background border-t border-border">
+      <section id="committee" className="py-4 md:py-6 bg-background border-t border-border scroll-mt-12">
         <div className="text-center mb-6">
           <SectionTitle 
             onClick={() => handleToggleSection('committee')}
