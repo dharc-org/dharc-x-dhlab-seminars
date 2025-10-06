@@ -163,7 +163,7 @@ export const seminarData = {
               {
                 time: "11:20 - 11:40",
                 type: "talk",
-                title: "Encoding documents as graphs using markup",
+                title: "Encoding documents as Graphs using Markup",
                 speaker: "Ronald Haentjens Dekker",
                 affiliation: "DHLab",
               },
@@ -229,7 +229,7 @@ export const seminarData = {
               {
                 time: "16:20 - 16:40",
                 type: "talk",
-                title: "Born Digital Archives",
+                title: "Representing Born-digital Archives: from File Systems to Knowledge Graphs ",
                 speaker: "Lucia Giagnolini",
                 affiliation: "/DH.arc",
               },
@@ -282,7 +282,7 @@ export const seminarData = {
                 time: "11:20 - 11:40",
                 type: "talk",
                 title:
-                  "Knowledge Extraction of Digital Hermeneutics of the Van den vos Reynaerde",
+                  "Knowledge Extraction of Digital Hermeneutics: the Case of the Van den vos Reynaerde",
                 speaker: "Andrea Schimmenti",
                 affiliation: "/DH.arc",
               },
