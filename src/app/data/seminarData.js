@@ -95,13 +95,13 @@ export const seminarData = {
         // Paragrafo 3 (semplice, solo testo)
         "The initiative is open to researchers at any level, students, cultural heritage professionals, and information and knowledge engineers. The contributions presented will reflect research at different stages of development, ranging from exploratory ideas and pilot studies to established tools and mature projects.",
         // Paragrafo 4 (semplice)
-        "The first two days will be dedicated to talks following a seminar-style format. Each day will open with a keynote introducing the main theme, delivered by the two leading figures of the partner research centers: Prof. Francesca Tomasi (/DH.arc, University of Bologna) and Dr. Marieke van Erp (DHLab, Amsterdam). Day one will explore Knowledge Organisation and Visualisation, while day two will focus on Knowledge Extraction and, more generally, on Knowledge Practices.",
+        "The first two days will be dedicated to talks following a seminar-style format. Each day will open with a keynote introducing the main theme, delivered by the two leading figures of the partner research centers: Prof. Francesca Tomasi (/DH.arc, University of Bologna) and Dr. Marieke van Erp (DHLab, Amsterdam). Day one will explore Knowledge Organization and Visualization, while day two will focus on Knowledge Extraction and, more generally, on Knowledge Practices.",
         // Paragrafo 5 (semplice)
-        "The third and final day will be entirely dedicated to two practical workshops. The first workshop will introduce methods of text annotation showing how to build specific datasets from textual data using RDF. The second workshop will explore different technologies for extracting and analysing reading experiences in online book reviews.",
+        "The third and final day will be entirely dedicated to two practical workshops. The first workshop will introduce methods of text annotation showing how to build specific datasets from textual data using RDF. The second workshop will explore different technologies for extracting and analyzing reading experiences in online book reviews.",
         // Paragrafo 6 (complesso, con link e corsivo)
         [
           {
-            text: "This seminar is being organised by PhD students at the University of Bologna as part of the ",
+            text: "This seminar is being organized by PhD students at the University of Bologna as part of the ",
           },
           {
             text: "BolDH - Bologna Digital Humanities ecosystem",
@@ -214,7 +214,7 @@ export const seminarData = {
                 time: "15:40 - 16:00",
                 type: "talk",
                 title:
-                  "Experimenting a semi-automatic approach based on online surveys to formalise unstructured knowledge in linked data",
+                  "Experimenting a semi-automatic approach based on online surveys to formalize unstructured knowledge in linked data",
                 speaker: "Arianna Moretti, Sebastian Barzaghi",
                 affiliation: "/DH.arc",
               },
@@ -379,7 +379,7 @@ export const seminarData = {
                 time: "11:30 - 13:00",
                 type: "workshop",
                 title:
-                  "Workshop: Analysing multilingual dataset of online book reviews",
+                  "Workshop: Analyzing multilingual dataset of online book reviews",
                 speaker: "Curated by Marijn Koolen, Joris van Zundert",
               },
               {
@@ -610,7 +610,7 @@ export const seminarData = {
                 time: "15:40 - 16:00",
                 type: "talk",
                 title:
-                  "Experimenting a semi-automatic approach based on online surveys to formalise unstructured knowledge in linked data",
+                  "Experimenting a semi-automatic approach based on online surveys to formalize unstructured knowledge in linked data",
                 speaker: "Arianna Moretti, Sebastian Barzaghi",
                 affiliation: "/DH.arc",
               },
@@ -775,7 +775,7 @@ export const seminarData = {
                 time: "11:30 - 13:00",
                 type: "workshop",
                 title:
-                  "Workshop: Analysing multilingual dataset of online book reviews",
+                  "Workshop: Analyzing multilingual dataset of online book reviews",
                 speaker: "A cura di Marijn Koolen, Joris van Zundert",
               },
               {
