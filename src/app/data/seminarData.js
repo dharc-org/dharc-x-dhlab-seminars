@@ -204,9 +204,9 @@ export const seminarData = {
               {
                 time: "14:50 - 15:10",
                 type: "talk",
-                title:
-                  "Tracing the Art Market: A Digital-Semantic Workflow for the Zeri Foundation’s Historical Auction Records (1879-1929)",
-                speaker: "Valentina Rossetti, Valentina Pasqual",
+              title:
+                  "Visualizing the Humanities: a survey of visualization practices, narrativity, and critical approaches in Digital Humanities projects",
+                speaker: "Tommaso Battisti",
                 affiliation: "/DH.arc",
               },
               { time: "15:10 - 15:40", type: "break", title: "Coffee Break" },
@@ -340,8 +340,8 @@ export const seminarData = {
                 time: "16:00 - 16:20",
                 type: "talk",
                 title:
-                  "Visualizing the Humanities: a survey of visualization practices, narrativity, and critical approaches in Digital Humanities projects",
-                speaker: "Tommaso Battisti",
+                  "Tracing the Art Market: A Digital-Semantic Workflow for the Zeri Foundation’s Historical Auction Records (1879-1929)",
+                speaker: "Valentina Rossetti, Valentina Pasqual",
                 affiliation: "/DH.arc",
               },
             ],
@@ -600,9 +600,9 @@ export const seminarData = {
               {
                 time: "14:50 - 15:10",
                 type: "talk",
-                title:
-                  "Tracing the Art Market: A Digital-Semantic Workflow for the Zeri Foundation’s Historical Auction Records (1879-1929)",
-                speaker: "Valentina Rossetti, Valentina Pasqual",
+                              title:
+                  "Visualizing the Humanities: a survey of visualization practices, narrativity, and critical approaches in Digital Humanities projects",
+                speaker: "Tommaso Battisti",
                 affiliation: "/DH.arc",
               },
               { time: "15:10 - 15:40", type: "break", title: "Pausa Caffè" },
@@ -736,8 +736,8 @@ export const seminarData = {
                 time: "16:00 - 16:20",
                 type: "talk",
                 title:
-                  "Visualizing the Humanities: a survey of visualization practices, narrativity, and critical approaches in Digital Humanities projects",
-                speaker: "Tommaso Battisti",
+                  "Tracing the Art Market: A Digital-Semantic Workflow for the Zeri Foundation’s Historical Auction Records (1879-1929)",
+                speaker: "Valentina Rossetti, Valentina Pasqual",
                 affiliation: "/DH.arc",
               },
             ],
