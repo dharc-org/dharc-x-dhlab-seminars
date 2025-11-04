@@ -323,7 +323,7 @@ export const seminarData = {
                 time: "14:50 - 15:10",
                 type: "talk",
                 title:
-                  "Research in Action: Practical Approaches to Archival Data",
+                  "What’s on the plate? Dutch culinary trends from historical recipes",
                 speaker: "Gauri Bhagwat",
                 affiliation: "DHLab",
               },
@@ -719,7 +719,7 @@ export const seminarData = {
                 time: "14:50 - 15:10",
                 type: "talk",
                 title:
-                  "Research in Action: Practical Approaches to Archival Data",
+                  "What’s on the plate? Dutch culinary trends from historical recipes",
                 speaker: "Gauri Bhagwat",
                 affiliation: "DHLab",
               },
